@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hero{
+    background: rgb(252, 156, 156);
+    /* height: 100vh; */
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.hero-img{
+    width: 100%;
+}
+.content{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.content> div{
+
+}
+.img-section{
+    width: 50%;
+}
+.btn-group{
+    padding: 15px 0;
+}
+button{
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: none;
+    background: deeppink;
+    color: white;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    padding: 15px 0;
+}
+
+
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: deeppink;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav-items ul li{
+    list-style: none;
+    
+}
+.nav-items ul li a{
+    text-decoration: none;
+    color: maroon;
+    border: 1px solid;
+    padding: 8px 20px;
+}
+.nav-items ul li a:hover{
+    color: white;
+}
+
+
+
+#card{
+    background: #5c5c5c;
+    padding: 70px 0;
+}
+.box{
+    width: 20%;
+    border-radius: 15px;
+    height: 170px;
+}
+.card-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.red{
+    background: red;
+}
+.green{
+    background: green;
+}
+.tometo{
+    background: tomato;
+}
+.yellow{
+    background: yellowgreen;
+}
